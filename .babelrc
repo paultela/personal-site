@@ -1,0 +1,13 @@
+{
+	"presets": [
+		["env", {
+			"targets": {
+				"browsers": "defaults"
+			},
+			"useBuiltIns": true,
+			"debug": true,
+			"modules": false
+		}],
+		"react"
+	]
+}
