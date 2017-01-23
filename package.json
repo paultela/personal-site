@@ -18,16 +18,21 @@
     "eslint-plugin-react": "^6.9.0",
     "extract-text-webpack-plugin": "^2.0.0-beta",
     "file-loader": "^0.9.0",
+    "font-awesome": "^4.7.0",
     "node-sass": "^4.3.0",
     "postcss-loader": "^1.2.2",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
+    "react-router": "^3.0.2",
     "resolve-url-loader": "^1.6.1",
     "sass-loader": "^4.1.1",
     "webpack": "^2.2.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.14.0"
+  },
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "server": "node server.js"
   }
 }
