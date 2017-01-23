@@ -26,13 +26,16 @@
     "react-router": "^3.0.2",
     "resolve-url-loader": "^1.6.1",
     "sass-loader": "^4.1.1",
-    "webpack": "^2.2.0"
+    "webpack": "^2.2.0",
+    "webpack-merge": "^2.4.0"
   },
   "dependencies": {
     "express": "^4.14.0"
   },
   "scripts": {
-    "build": "webpack",
+    "build:dev": "webpack --env=dev --progress --profile --colors",
+    "build:watch": "webpack --env=dev --progress --profile --colors --watch",
+    "build:prod": "webpack --env=production --progress --profile --colors",
     "server": "node server.js"
   }
 }
